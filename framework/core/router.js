@@ -48,7 +48,7 @@ window.addEventListener('load', router);
 
 
 function route2(path, vm) {
-  var l = "./../app/view/" + path.replace(/\//g, '') + ".html";
+  var l = "/framework/app/view/" + path.replace(/\//g, '') + ".html";
   var myHeaders = new Headers();
   myHeaders.append('Content-Type', 'text/html');
 
